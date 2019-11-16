@@ -55,8 +55,9 @@ class Deck extends Component {
 		))
 		return (
 			<div>
-				<h1> Card Dealer </h1>
-				<button onClick={this.getCard}> Get Card! </button>
+				<h1 className="Deck-title"> Card Dealer </h1>
+				<h2 className="Deck-title sub"> A little demo with react and a card shuffle api</h2>
+				<button className="Deck-btn" onClick={this.getCard}> Get Card! </button>
 				<div className="Deck-card"> {cards} </div>
 			</div>
 		)
