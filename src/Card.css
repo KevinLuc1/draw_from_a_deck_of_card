@@ -1,0 +1,9 @@
+.Card {
+	position: absolute;
+	left:0;
+	right:0;
+	margin: auto;
+	/*moves the position of x and y pixels over with translate*/
+	/*rotates the element by x degrees with rotate*/
+	transform: translate(10px, 20px) rotate(20deg);
+}
